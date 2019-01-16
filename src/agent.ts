@@ -6,4 +6,4 @@ export interface Agent {
   StatusUpdateDatetime: Date;
 }
 
-export type Presence = "Available" | "Busy" | "Research" | "Offline";
+export type Presence = 'Available'|'Busy'|'Research'|'Offline';

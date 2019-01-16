@@ -1,5 +1,5 @@
 /** empty */
 
-import { agents } from './agents-status.repository';
+import {agents} from './agents-status.repository';
 
 console.log(agents);
