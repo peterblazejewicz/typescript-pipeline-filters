@@ -1,4 +1,4 @@
-import {Filter} from '../filters/filter';
+import {Filter} from '@demo/filters';
 /**
  * An abstract Pipeline with a list of filters and abstract Process method
  * @export

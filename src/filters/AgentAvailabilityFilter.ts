@@ -1,6 +1,6 @@
-import {Agent} from '../agent';
+import {Filter} from '@demo/filters';
 
-import {Filter} from './filter';
+import {Agent} from '../agent';
 
 /**
  * ConcreteFilter
@@ -13,7 +13,7 @@ export class AgentAvailabilityFilter implements Filter<Agent[]> {
   /**
    * @inheritdoc
    */
-  Execute(input: Agent[]): Agent[] {
+  execute(input: Agent[]): Agent[] {
     if (input === null || input.length < 1) {
       return input;
     }

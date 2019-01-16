@@ -12,5 +12,5 @@ export interface Filter<T> {
    * @returns {T}
    * @memberof Filter
    */
-  Execute(input: T): T;
+  execute(input: T): T;
 }

@@ -1,5 +1,6 @@
+import {Pipeline} from '@demo/pipelines';
+
 import {Agent} from '../agent';
-import {Pipeline} from './pipeline';
 
 /**
  * Concrete pipeline
@@ -14,7 +15,7 @@ export class AgentSelectionPipeline extends Pipeline<Agent[]> {
    * @inheritdoc
    */
   process(input: Agent[]): Agent[] {
-    this.filters.forEach(filter => (input = filter.Execute(input)));
+    this.filters.forEach(filter => (input = filter.execute(input)));
     return input;
   }
 }

@@ -1,5 +1,6 @@
+import {Filter} from '@demo/filters';
+
 import {Agent} from '../agent';
-import {Filter} from './filter';
 
 /**
  * Concrete filter
@@ -15,7 +16,7 @@ export class AgentPresenceUpdateDatetimeFilter implements Filter<Agent[]> {
    * @returns {Agent[]}
    * @memberof AgentPresenceUpdateDatetimeFilter
    */
-  Execute(input: Agent[]): Agent[] {
+  execute(input: Agent[]): Agent[] {
     if (input === null || input.length < 1) {
       return input;
     }
