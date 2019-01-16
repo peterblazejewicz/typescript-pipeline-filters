@@ -27,7 +27,7 @@ export const agents: Agent[] = [
     PresenceStatus: 'Research',
     CurrentWorkload: 2,
     MaxWorkload: 3,
-    StatusUpdateDatetime: new Date()
+    StatusUpdateDatetime: new Date(new Date().setMinutes(-5)),
   },
   {
     AgentId: 'agent_id_5',

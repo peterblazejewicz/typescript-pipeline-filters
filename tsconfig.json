@@ -2,25 +2,13 @@
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
     "rootDir": ".",
-    "baseUrl": "src",
     "noEmit": true,
     "types": [
       "node"
     ],
     "typeRoots": [
       "node_modules/@types"
-    ],
-    "paths": {
-      "@demo/filters": [
-        "filters/index.ts"
-      ],
-      "@demo/pipelines": [
-        "pipelines/index.ts"
-      ],
-      "@demo/repository": [
-        "repository/index.ts"
-      ]
-    }
+    ]
   },
   "include": [
     "src/*.ts",

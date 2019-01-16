@@ -1,6 +1,5 @@
-import {Filter} from '@demo/filters';
-
 import {Agent} from '../agent';
+import {Filter} from '../filters';
 
 /**
  * Concrete filter

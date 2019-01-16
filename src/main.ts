@@ -1,6 +1,6 @@
-import {AgentAvailabilityFilter, AgentPresenceUpdateDatetimeFilter, AgentWorkloadFilter} from '@demo/filters';
-import {AgentSelectionPipeline} from '@demo/pipelines';
-import {agents} from '@demo/repository';
+import {AgentAvailabilityFilter, AgentPresenceUpdateDatetimeFilter, AgentWorkloadFilter} from './filters';
+import {AgentSelectionPipeline} from './pipelines';
+import {agents} from './repository';
 
 // Get the Agents from repository
 const agentsStatus = agents;

@@ -1,6 +1,6 @@
-import {Pipeline} from '@demo/pipelines';
-
 import {Agent} from '../agent';
+
+import {Pipeline} from './Pipeline';
 
 /**
  * Concrete pipeline
