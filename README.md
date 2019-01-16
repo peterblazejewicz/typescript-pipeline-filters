@@ -43,7 +43,6 @@ console.log(`agents after processing: ${processedAgentStatus.length}`);
 
 ```bash
 npm i
-npm run build
 npm start
 ```
 
